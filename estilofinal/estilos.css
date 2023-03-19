@@ -1,0 +1,57 @@
+
+body{
+    background-color:#fafbfd;
+    font-family:Tahoma, Geneva, sans-serif
+
+
+}
+
+h1{
+    text-align: center;
+    color:#1f1ff1;
+    font-style:italic;
+}
+h2{
+    text-align: left;
+    color:rgb(24, 33, 189);
+    font-style: italic;
+}
+h3{
+    text-align:left;
+    color:rgb(27, 40, 230);
+    font-style: oblique;
+}
+p{
+    text-align:justify;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 30%;
+}
+.menu ul {
+
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu a {
+    display: block;
+    padding: 0.8em;
+    background-color: rgb(11, 19, 240);
+    text-decoration: none;
+    color: rgb(13, 15, 18);
+    font-weight: 900;
+}
+.menu a:hover{
+    background-color: rgb(135, 91, 245);
+}
+.menu ul li ul {
+    display: none;
+}
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+    display: block;
+}
